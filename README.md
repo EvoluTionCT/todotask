@@ -29,9 +29,9 @@ In API Assignment I use Apache and MySQL work it
 RestEasy is a tool help to developers who perform RESTful API calls against third party services. RestEasy is plug-in in Google Chrome
 
 ### Other resources
-[RESTful API With PHP & MySQL](https://youtu.be/DHUxnUX7Y2Y)
-[Creating a simple REST API in PHP](https://www.leaseweb.com/labs/2015/10/creating-a-simple-rest-api-in-php/)
-[ทดลองสร้าง RESTful services โดยใช้ Slim PHP Framework](http://www.siamhttp.com/site/article/create-restful-services-using-slim-php.html)
+* [RESTful API With PHP & MySQL](https://youtu.be/DHUxnUX7Y2Y)
+* [Creating a simple REST API in PHP](https://www.leaseweb.com/labs/2015/10/creating-a-simple-rest-api-in-php/)
+* [ทดลองสร้าง RESTful services โดยใช้ Slim PHP Framework](http://www.siamhttp.com/site/article/create-restful-services-using-slim-php.html)
 
 ## Please Note
 > **The Payment Card Industry (PCI) Council has [mandated](https://blog.pcisecuritystandards.org/migrating-from-ssl-and-early-tls) that early versions of TLS be retired from service.  All organizations that handle credit card information are required to comply with this standard. As part of this obligation, PayPal is updating its services to require TLS 1.2 for all HTTPS connections. At this time, PayPal will also require HTTP/1.1 for all connections. [Click here](https://github.com/paypal/tls-update) for more information**
