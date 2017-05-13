@@ -1,7 +1,7 @@
 # Todotask
-# REST API SDK for PHP
 
-![Home Image](https://raw.githubusercontent.com/wiki/paypal/PayPal-PHP-SDK/images/homepage.jpg)
+## API Documents
+![slim-discourse-logo](https://cloud.githubusercontent.com/assets/11935635/26027803/e22cf118-383e-11e7-95d6-fca147786f84.png)
 
 [![Build Status](https://travis-ci.org/paypal/PayPal-PHP-SDK.svg?branch=master)](https://travis-ci.org/paypal/PayPal-PHP-SDK)
 [![Coverage Status](https://coveralls.io/repos/paypal/PayPal-PHP-SDK/badge.svg?branch=master)](https://coveralls.io/r/paypal/PayPal-PHP-SDK?branch=master)
@@ -24,26 +24,10 @@ __Welcome to PayPal PHP SDK__. This repository contains PayPal's PHP SDK and sam
 * [Make your First SDK Call](https://github.com/paypal/PayPal-PHP-SDK/wiki/Making-First-Call)
 * [PayPal Developer Docs](https://developer.paypal.com/docs/)
 
-## Latest Updates
-
-- SDK now allows injecting your logger implementation. Please read [documentation](https://github.com/paypal/PayPal-PHP-SDK/wiki/Custom-Logger) for more details.
-- If you are running into SSL Connect Error talking to sandbox or live, please update your SDK to latest version or, follow instructions as shown [here](https://github.com/paypal/PayPal-PHP-SDK/issues/474)
-- Checkout the latest 1.0.0 release. Here are all the [breaking Changes in v1.0.0](https://github.com/paypal/PayPal-PHP-SDK/wiki/Breaking-Changes---1.0.0) if you are migrating from older versions.
-- Now we have a [Github Page](https://paypal.github.io/PayPal-PHP-SDK/), that helps you find all helpful resources building applications using PayPal-PHP-SDK.
-
-
 ## Prerequisites
 
    - PHP 5.3 or above
    - [curl](https://secure.php.net/manual/en/book.curl.php), [json](https://secure.php.net/manual/en/book.json.php) & [openssl](https://secure.php.net/manual/en/book.openssl.php) extensions must be enabled
-
-## License
-
-Read [License](LICENSE) for more licensing information.
-
-## Contributing
-
-Read [here](CONTRIBUTING.md) for more information.
 
 ## More help
    * [Going Live](https://github.com/paypal/PayPal-PHP-SDK/wiki/Going-Live)
