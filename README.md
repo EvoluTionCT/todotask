@@ -33,12 +33,13 @@ RestEasy is a tool help to developers who perform RESTful API calls against thir
 * [Creating a simple REST API in PHP](https://www.leaseweb.com/labs/2015/10/creating-a-simple-rest-api-in-php/)
 * [ทดลองสร้าง RESTful services โดยใช้ Slim PHP Framework](http://www.siamhttp.com/site/article/create-restful-services-using-slim-php.html)
 
-## Please Note
-> **The Payment Card Industry (PCI) Council has [mandated](https://blog.pcisecuritystandards.org/migrating-from-ssl-and-early-tls) that early versions of TLS be retired from service.  All organizations that handle credit card information are required to comply with this standard. As part of this obligation, PayPal is updating its services to require TLS 1.2 for all HTTPS connections. At this time, PayPal will also require HTTP/1.1 for all connections. [Click here](https://github.com/paypal/tls-update) for more information**
-
-> **Connections to the sandbox environment use only TLS 1.2.**
 
 ## Setup Instruction
+
+### Xampp
+
+![ezgif com-video-to-gif 1](https://cloud.githubusercontent.com/assets/11935635/26028623/a77b88c6-384e-11e7-8e54-51a32134bdb1.gif)
+
 
 [Our PayPal-PHP-SDK Page](http://paypal.github.io/PayPal-PHP-SDK/) includes all the documentation related to PHP SDK. Everything from SDK Wiki, to Sample Codes, to Releases. Here are few quick links to get you there faster.
 
