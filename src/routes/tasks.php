@@ -99,9 +99,9 @@ $app->put('/api/task/update/{id}', function(Request $request, Response $response
 
     //SQL QUERY
     $sql = "UPDATE tasks SET
-				subject 	= :subject,
-				detail 	  = :detail,
-        status		= :status,
+		    subject = :subject,
+				detail = :detail,
+        status = :status,
 			WHERE id = $id";
 
     try{
@@ -130,7 +130,7 @@ $app->put('/api/task/update/status/{id}', function(Request $request, Response $r
     $status = $request->getParam('status');
     //SQL QUERY
     $sql = "UPDATE tasks SET
-        status		= :status
+      status = :status
     WHERE id = $id";
 
     try{
