@@ -39,7 +39,14 @@ RestEasy is a tool help to developers who perform RESTful API calls against thir
 ### Xampp
 
 ![ezgif com-video-to-gif 1](https://cloud.githubusercontent.com/assets/11935635/26028623/a77b88c6-384e-11e7-8e54-51a32134bdb1.gif)
+It's simple to Installation Xampp
+  * Select path
+  * Select tools installation
+  * Select on open website bitmap for xampp
+  * Finish installation
 
+![xampp change port](https://cloud.githubusercontent.com/assets/11935635/26028650/4ff93f0c-384f-11e7-90b6-b3f11cb3c100.PNG)
+  * Change Port 80 to 8888 because port 80 is same with VMWorksation if i don't change, it can't open or start apache and mysql
 
 [Our PayPal-PHP-SDK Page](http://paypal.github.io/PayPal-PHP-SDK/) includes all the documentation related to PHP SDK. Everything from SDK Wiki, to Sample Codes, to Releases. Here are few quick links to get you there faster.
 
