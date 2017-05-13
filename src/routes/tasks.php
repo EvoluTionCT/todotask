@@ -9,7 +9,7 @@ $app = new \Slim\App;
 $app->options('/{routes:.+}', function ($request, $response, $args) {
     return $response;
 });
-
+//add parameter $req,$res,$next to compile with restful-api
 $app->add(function ($req, $res, $next) {
     $response = $next($req, $res);
     return $response
@@ -63,7 +63,7 @@ $app->get('/api/task/{id}', function(Request $request, Response $response){
 
 // Add a task to the list
 $app->post('/api/task/add', function(Request $request, Response $response){
-      //To fetch single request parameter value
+    //To fetch single request parameter value
     $subject = $request->getParam('subject');
     $detail = $request->getParam('detail');
     $status = $request->getParam('status');
@@ -77,11 +77,10 @@ $app->post('/api/task/add', function(Request $request, Response $response){
         $db = $db->connect();
         //Add task to database
         $stmt = $db->prepare($sql);
-        $stmt->bindParam(':subject', $subject);
-        $stmt->bindParam(':detail',  $detail);
-        $stmt->bindParam(':status',  $status);
+        $stmt->bindParam(':subject',$subject);
+        $stmt->bindParam(':detail',$detail);
+        $stmt->bindParam(':status',$status);
         $stmt->execute();
-
         //print text when complete to add task
         echo '{"notice": {"text": "Task has been added"}';
 

@@ -39,16 +39,56 @@ RestEasy is a tool help to developers who perform RESTful API calls against thir
 ### Xampp
 
 ![ezgif com-video-to-gif 1](https://cloud.githubusercontent.com/assets/11935635/26028623/a77b88c6-384e-11e7-8e54-51a32134bdb1.gif)
-It's simple to Installation Xampp
-  * Select path
-  * Select tools installation
-  * Select on open website bitmap for xampp
-  * Finish installation
+  * Installation Xampp
+    - Select path
+    - Press next button
+    - Select tools installation
+    - Press next button
+    - Select on open website bitmap for xampp
+    - Press next button
+    - Finish installation
 
 ![xampp change port](https://cloud.githubusercontent.com/assets/11935635/26028650/4ff93f0c-384f-11e7-90b6-b3f11cb3c100.PNG)
   * Change Port 80 to 8888 because port 80 is same with VMWorksation if i don't change, it can't open or start apache and mysql
 
-[Our PayPal-PHP-SDK Page](http://paypal.github.io/PayPal-PHP-SDK/) includes all the documentation related to PHP SDK. Everything from SDK Wiki, to Sample Codes, to Releases. Here are few quick links to get you there faster.
+### Composer
+![composer_install](https://cloud.githubusercontent.com/assets/11935635/26028739/9cba8002-3850-11e7-8a8a-9fac0c0eaf45.gif)
+  * Installation Composer
+    - Select path of php and find php.exe in xampp
+    - Press next button
+    - Select or not use a proxy server (i am choose "NO")
+    - Press next button
+    - Wait for installation
+    - Finish
+
+### RestEasy    
+![resteasy](https://cloud.githubusercontent.com/assets/11935635/26028865/a5a2abb6-3852-11e7-9398-8e6ea5c465e6.gif)
+  * Installation RestEasy
+    - Search RestEasy in google chrome
+    - Get extension RestEasy
+    - Wait for installation
+    - Open RestEasy to Run
+
+#### Example of RestEasy
+  * GET tasks  
+![get data](https://cloud.githubusercontent.com/assets/11935635/26029032/20a37f0e-3856-11e7-9b66-711c93bc7724.gif)
+  
+
+
+
+### Slim-Framwork
+![slim](https://cloud.githubusercontent.com/assets/11935635/26028963/728541ec-3854-11e7-9722-6a2f12c63b12.gif)
+  * Installation Slim-Framework
+    - Select destination path to installation
+    - Right click and select on windows powershell
+    - input "composer require slim/slim "^3.0"" in windows powershell and enter
+    - wait for installation
+    - if success check folder and find composer.json
+    - open composter.json
+    ![composer json](https://cloud.githubusercontent.com/assets/11935635/26028998/fb906a8e-3854-11e7-9c67-72a95bc19cc1.PNG)
+    - Require the Composer autoloader into your PHP script, and you are ready to start using Slim. "<?php
+require 'vendor/autoload.php';"
+    - Finish
 
 * [PayPal-PHP-SDK Home Page](https://paypal.github.io/PayPal-PHP-SDK/)
 * [Wiki](https://github.com/paypal/PayPal-PHP-SDK/wiki)
