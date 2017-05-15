@@ -72,7 +72,7 @@ RestEasy is a tool help to developers who perform RESTful API calls against thir
 #### Example of RestEasy
   * GET tasks  
 ![get data](https://cloud.githubusercontent.com/assets/11935635/26029032/20a37f0e-3856-11e7-9b66-711c93bc7724.gif)
-  
+
 
 
 
@@ -89,13 +89,6 @@ RestEasy is a tool help to developers who perform RESTful API calls against thir
     - Require the Composer autoloader into your PHP script, and you are ready to start using Slim. "<?php
 require 'vendor/autoload.php';"
     - Finish
-
-* [PayPal-PHP-SDK Home Page](https://paypal.github.io/PayPal-PHP-SDK/)
-* [Wiki](https://github.com/paypal/PayPal-PHP-SDK/wiki)
-* [Samples](https://paypal.github.io/PayPal-PHP-SDK/sample/)
-* [Installation](https://github.com/paypal/PayPal-PHP-SDK/wiki/Installation)
-* [Make your First SDK Call](https://github.com/paypal/PayPal-PHP-SDK/wiki/Making-First-Call)
-* [PayPal Developer Docs](https://developer.paypal.com/docs/)
 
 ## Prerequisites
 
